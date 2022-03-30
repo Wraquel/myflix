@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>MyFlix</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Myflix</h1>
+      <br />
+      <p class="page-subtitle">Adicione seus filmes favoritos</p>
+      <div class="form-wrapper">
+        <input
+          type="text"
+          id="filme"
+          name="filme"
+          placeholder="Insira endereço de imagem"
+        />
+        <button onClick="adicionarFilme()">Adicionar Filme</button>
+      </div>
+    </div>
+    <ul id="filmesListados">
+      <li>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/pt/8/8a/Into-the-wild.jpg"
+        />
+      </li>
+      <li>
+        <img
+          src="https://m.media-amazon.com/images/M/MV5BMTUxMzk0NDg1MV5BMl5BanBnXkFtZTgwNDg0NjkxMDI@._V1_.jpg"
+        />
+      </li>
+      <li><img src="https://flxt.tmsimg.com/assets/p40_p_v10_ap.jpg" /></li>
+      <li>
+        <img
+          src="https://m.media-amazon.com/images/I/81YdUDaMiWL._SL1500_.jpg"
+        />
+      </li>
+    </ul>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
